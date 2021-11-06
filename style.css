@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Literata&family=Quicksand&display=swap');
+
+body {
+    background-image: url(./img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Literata', serif; ;
+    text-transform: uppercase;
+    margin-top: 10px  ;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+    padding: 1% 2%;
+    max-width:  10rem;
+    background-color: rgba(45, 67, 60, .90);
+    color: #969aa2;
+    border-radius: 1.5%;
+    position: fixed;
+    bottom:  6em;
+    left: 6em;
+
+
+}
+
+
+
+
