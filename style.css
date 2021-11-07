@@ -40,7 +40,7 @@ a:visited {
 .container {
     padding: 10px 20px;
     max-width: 20rem;
-    min-width: 10rem;
+    width: 300px ;
     background-color: rgba(45, 67, 60, .90);
     color: #969aa2;
     border-radius: 2.5%;
@@ -52,7 +52,7 @@ a:visited {
     display: flex;
     flex-direction: column;
     margin-top: -20px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     max-height: 25rem;
     overflow-y: scroll;
     overflow-x: hidden;
