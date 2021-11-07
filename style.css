@@ -12,29 +12,97 @@ h2,
 h3,
 h4,
 h5,
-h6{
-    font-family: 'Literata', serif; ;
+h6 {
+    font-family: 'Literata', serif;
     text-transform: uppercase;
-    margin-top: 10px  ;
+    margin-top: 10px;
 }
 
 p {
     font-family: 'Quicksand', sans-serif;
 }
 
+a {
+    color: #969aa2;
+    text-decoration: none;
+}
+
+a:hover,
+i:hover {
+    color: #969aa2;
+    transform: scale(1.15);
+}
+
+a:visited {
+    color: #969aa2;
+}
+
 .container {
-    padding: 1% 2%;
-    max-width:  10rem;
+    padding: 10px 20px;
+    max-width: 20rem;
+    min-width: 10rem;
     background-color: rgba(45, 67, 60, .90);
     color: #969aa2;
-    border-radius: 1.5%;
+    border-radius: 2.5%;
     position: fixed;
-    bottom:  6em;
+    bottom: 6em;
     left: 6em;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+    margin-bottom: 15px;
+}
 
+.entry {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: -25px;
+}
+
+.description {
+    margin-bottom:  5px;
 
 }
 
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -40px;
+}
+
+hr  {
+    width: 100%;
+    border-top: dotted 2px;
+    border-bottom: none;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 
 
+@media (max-width: 800px) {
 
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 90vh;
+    }
+
+    .container {
+       position: static ;
+    }
+
+}
