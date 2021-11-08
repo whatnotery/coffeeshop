@@ -13,7 +13,6 @@ function switchContent() {
         home.classList.remove('hide')
         toggle.innerText = "menu"
     }
-
 }
 
 
