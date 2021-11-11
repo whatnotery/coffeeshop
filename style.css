@@ -55,6 +55,8 @@ a:visited {
     margin-bottom: 10px;
     max-height: 25rem;
     overflow-y: scroll;
+    scrollbar-color: #969aa2 #2d433c; 
+    scrollbar-width: thin;
     overflow-x: hidden;
     padding-right: 15px;
     box-sizing: content-box;
@@ -99,6 +101,7 @@ hr  {
 .hide {
     display: none;
 }
+
 
 ::-webkit-scrollbar {
     width: 5px;
