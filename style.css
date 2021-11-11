@@ -138,3 +138,14 @@ hr  {
     }
 
 }
+
+@media (max-height: 680px) {
+    .container {
+        bottom: 3em;
+    }
+}
+
+@media (max-height: 600px) {
+    .menu {
+        max-height: 15rem;    }
+}
